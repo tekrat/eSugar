@@ -9,9 +9,9 @@ Example Usage:
   **ES(Tag Name, Inner Content *[optional]*, JSON List of Tab Attributes *[optional]*) returns a string**
 
 <pre>
-  **ES("br")** generates &lt;br />
-  **ES("div", "Hello World!")** generates &lt;div>Hello World!&lt;/div>
-  **ES("span", "Hello World in RED!", {style: "color: red;", id: "MySPAN"})** generates 
+  ES("br") generates &lt;br />
+  ES("div", "Hello World!") generates &lt;div>Hello World!&lt;/div>
+  ES("span", "Hello World in RED!", {style: "color: red;", id: "MySPAN"}) generates 
     &lt;span style="color: red;" id="MySPAN">Hello World in RED!&lt;/span>
 </pre>
   
