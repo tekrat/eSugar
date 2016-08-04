@@ -25,6 +25,8 @@ ES("div",
 );
 </pre>
 
+You can see the code in action at: https://jsfiddle.net/ervkosch/kz7edvqL/
+
 Disclaimer
 =====
 This code is provided without warranty. While I strive to maintain backwards compatibility with previous versions, the code is still under active development. As this is the case, some revisions may break compatibility with earlier versions of the library. Please keep this in mind when using eSugar.
