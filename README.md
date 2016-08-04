@@ -6,7 +6,8 @@ Syntax generator for building HTML and XML strings
 Example Usage:
 ======
 
-  **ES(Tag Name, Inner Content *[optional]*, JSON List of Tab Attributes *[optional]*) returns a string**
+  **ES(Tag Name, Inner Content *[optional]*, JSON List of Tab Attributes *[optional]*, 
+  Prefix String to a Tag *[optional]*, Sufix String to a Tag *[optional]*, ) returns a string**
 
 <pre>
   ES("br") generates &lt;br />
@@ -30,4 +31,4 @@ This code is provided without warranty. While I strive to maintain backwards com
 
 Copyright and Licensing
 ======
-Copyright (c) 2012 Ervin Kosch, released under the GPL 3 license
+Copyright (c) 2012, 2016 Ervin Kosch, released under the GPL 3 license
