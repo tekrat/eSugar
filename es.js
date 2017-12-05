@@ -4,6 +4,12 @@ Syntax generator for building HTML and XML strings
 
 Latest version may be found at: https://github.com/tekrat/eSugar
 
+t = Tag Name(Required)
+c = Inner Content (Optional - Defaults to blank)
+a = Attributes in a named array  (Optional - Defaults to none)
+p = Tag prefix string  (Optional - Defaults to blank)
+s = Tag suffix string  (Optional - Defaults to blank)
+
 ** Example Usage:
 ES(Tag Name, Inner Content [optional], JSON List of Tab Attributes [optional]) returns a string
 
@@ -12,7 +18,7 @@ ES(Tag Name, Inner Content [optional], JSON List of Tab Attributes [optional]) r
   ES("span", "Hello World in RED!", {style: "color: red;", id: "MySPAN"})
 	generates <span style="color: red;" id="MySPAN">Hello World in RED!</span>
   ES("div", "Indent text and break at the end", {}, "\t", "\r\n")
-	generates
+	generates:
 	<div>Indent text and break at the end</div>
 	
 Don't forget you can encapsulate tags:
@@ -33,6 +39,8 @@ of the library. Please keep this in mind when using eSugar.
 
 ** Copyright and Licensing
 Copyright (c) 2016 Ervin Kosch, released under the GPL 3 license
+
+
 
 */
 function ES(t, c, a, p, s){
